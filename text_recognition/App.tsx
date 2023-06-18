@@ -4,7 +4,7 @@ import ImagePicker, {
   ImagePickerResponse,
   launchImageLibrary,
 } from 'react-native-image-picker';
-import TextRecognizer from '@react-native-ml-kit/text-recognition';
+import TextRecognizer from '@react-native-firebase/ml';
 
 const App = () => {
   const [selectedImage, setSelectedImage] =
